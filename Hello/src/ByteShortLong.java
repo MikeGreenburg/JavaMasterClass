@@ -42,5 +42,7 @@ public class ByteShortLong {
 
         short myNewShortValue = (short) (myMinShortValue / 2);
 
+
+
     }
 }
