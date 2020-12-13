@@ -36,5 +36,11 @@ public class ByteShortLong {
 
         short bigShortLiteralValue = 32767; //Max is 32767 for a short but will change it into an int
 
+        int myTotal = (myMinIntValue / 2);
+
+        byte myNewByteValue = (byte) (myMinByteValue / 2);//put the data type into () before our parameters which is called casting
+
+        short myNewShortValue = (short) (myMinShortValue / 2);
+
     }
 }
