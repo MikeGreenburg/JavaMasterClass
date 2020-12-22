@@ -65,8 +65,21 @@ public class Operators {
 
         int newValue = 50;
         if (newValue == 50) {
-            System.out.println("This is an error");
+            System.out.println("This is true");
         }
 
+        boolean isCar = false;
+        if (isCar) {//can also use (isCar == false) / (isCar == false) / (isCar) to check if the boolean isCar is false
+            System.out.println("This is not supposed to happen");
+        }
+
+        isCar = true;
+        boolean wasCar = isCar ? true : false;// ternary operator is a shortcut to assigning one of two values to a variable depending ona given condition. It is a shortcut of the if=then-else statement
+        if (wasCar) {
+            System.out.println("wasCar is true");
+        }
+
+        int ageOfClient = 20;
+        boolean isEighteenOrOver = (ageOfClient == 20) ? true : false;
     }
 }
