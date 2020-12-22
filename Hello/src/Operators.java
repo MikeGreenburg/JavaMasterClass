@@ -65,7 +65,12 @@ public class Operators {
 
         int newValue = 50;
         if (newValue == 50) {
-            System.out.println("This is an error");
+            System.out.println("This is true");
+        }
+
+        boolean isCar = false;
+        if (!isCar) {//can also use (isCar == false) / (isCar == false) / (isCar) to check if the boolean isCar is false
+            System.out.println("This is not supposed to happen");
         }
 
     }
