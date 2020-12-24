@@ -81,5 +81,20 @@ public class Operators {
 
         int ageOfClient = 20;
         boolean isEighteenOrOver = (ageOfClient == 20) ? true : false;
+
+        double myDouble = 20.00d;
+        double mySecondDouble = 80.00d;
+        double results = (myDouble + mySecondDouble) * 100.00d;
+        System.out.println("results = " + results );
+        double theRemainder = results % 40.00d; //the remainder of (10000 % 40.00) =
+        System.out.println("theRemainder = " + theRemainder);
+        boolean isNotRemainder = (theRemainder == 0) ? true : false;
+        System.out.println("isNotRemainder = " + isNotRemainder);
+        if (!isNotRemainder) {
+            System.out.println("Got some remainder");
+        }
+
+
+
     }
 }
