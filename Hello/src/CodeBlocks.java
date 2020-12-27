@@ -46,5 +46,34 @@ public class CodeBlocks {
             System.out.println("Your final score was " + finalScore);
         }
 
+
+        //True conditions
+        if(condition){
+            //if statement (block)
+        } else {
+            //else statement (block) only executes if the first condition is false!
+        }
+
+        int score = 6000;
+        if (score >= 5000) {//1. expression result is true
+            System.out.println("Your score was >= 5000");//2 execute line (code block)
+        } else if (score < 1000 && score >= 500){
+            System.out.println("Your score was < 1000 but >= 500");
+        } else {
+            System.out.println("Your score was < 500");
+        }
+        //3. jump here
+
+
+        //False conditions
+        int score = 800;
+        if (score >= 5000){//1. expression result is false
+            System.out.println("Your score was >= 500");
+        } else if (score < 1000 && score >= 500){//2. true && true result is true
+            System.out.println("Your score was < 1000 but >= 500");//3. execute line (code block)
+        } else {
+            System.out.println("Your score was < 500");
+        }
+        //4. jump here
     }
 }
