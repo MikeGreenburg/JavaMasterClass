@@ -48,6 +48,12 @@ public class CodeBlocks {
 
         highScorePosition = calculateScorePosition(1000);
         displayScorePosition("Kenny", highScorePosition);
+
+        highScorePosition = calculateScorePosition(500);
+        displayScorePosition("Sam", highScorePosition);
+
+        highScorePosition = calculateScorePosition(100);
+        displayScorePosition("Bree", highScorePosition);
 }
     public static void displayScorePosition(String playerName, int highScorePosition) {
         System.out.println(playerName + " managed to get into position " + highScorePosition + " on the high score table ");
