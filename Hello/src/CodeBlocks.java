@@ -45,6 +45,9 @@ public class CodeBlocks {
 
         highScorePosition = calculateScorePosition(50);
         displayScorePosition("Mike", highScorePosition);
+
+        highScorePosition = calculateScorePosition(1000);
+        displayScorePosition("Kenny", highScorePosition);
 }
     public static void displayScorePosition(String playerName, int highScorePosition) {
         System.out.println(playerName + " managed to get into position " + highScorePosition + " on the high score table ");
