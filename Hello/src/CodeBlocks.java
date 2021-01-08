@@ -61,14 +61,25 @@ public class CodeBlocks {
 
     public static int calculateScorePosition(int playerScore) {
 
-        if (playerScore >= 1000) {
-            return 1;
+//        if (playerScore >= 1000) {
+//            return 1;
+//        } else if (playerScore >= 500) {
+//            return 2;
+//        } else if (playerScore >= 100) {
+//            return 3;
+//        }
+//            return 4;
+
+        int position = 4;// assuming position 4 will be returned
+
+        if (playerScore >= 1000){
+            position = 1;
         } else if (playerScore >= 500) {
-            return 2;
+            position = 2;
         } else if (playerScore >= 100) {
-            return 3;
+            position = 3;
         }
-            return 4;
+        return position;
     }
 
     public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
